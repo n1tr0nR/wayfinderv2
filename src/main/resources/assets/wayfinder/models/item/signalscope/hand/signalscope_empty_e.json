@@ -1,0 +1,6 @@
+{
+  "parent": "wayfinder:item/signalscope",
+  "textures": {
+    "2": "wayfinder:item/signalscope_empty_i_e"
+  }
+}

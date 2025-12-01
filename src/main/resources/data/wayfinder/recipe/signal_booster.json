@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " cc",
+        "gcc",
+        "Ggg"
+    ],
+    "key": {
+        "c": "minecraft:copper_ingot",
+        "g": "minecraft:gold_ingot",
+        "G": "minecraft:gold_nugget"
+    },
+    "result": {
+        "id": "wayfinder:signal_booster",
+        "count": 1
+    }
+}

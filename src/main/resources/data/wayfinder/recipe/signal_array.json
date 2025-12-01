@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  #",
+        "gWg",
+        "ccc"
+    ],
+    "key": {
+        "#": "minecraft:gold_nugget",
+        "g": "minecraft:gold_ingot",
+        "W": "minecraft:calibrated_sculk_sensor",
+        "c": "minecraft:copper_ingot"
+    },
+    "result": {
+        "id": "wayfinder:signal_array",
+        "count": 1
+    }
+}

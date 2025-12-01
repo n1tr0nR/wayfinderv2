@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #W",
+        "RS ",
+        "gR "
+    ],
+    "key": {
+        "#": "minecraft:calibrated_sculk_sensor",
+        "W": "wayfinder:lens",
+        "R": "minecraft:redstone",
+        "S": "minecraft:spyglass",
+        "g": "minecraft:gold_ingot"
+    },
+    "result": {
+        "id": "wayfinder:signalscope",
+        "count": 1
+    }
+}

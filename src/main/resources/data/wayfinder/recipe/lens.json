@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "GGG",
+        " # "
+    ],
+    "key": {
+        "#": "minecraft:amethyst_shard",
+        "G": "minecraft:glass"
+    },
+    "result": {
+        "id": "wayfinder:lens",
+        "count": 1
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "dev.nitron.wayfinder.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ExampleMixin",
+    "PlayerInventoryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "DrawContextMixin",
+    "InGameHudMixin",
+    "MouseMixin",
+    "WorldRendererMixin"
+  ]
+}

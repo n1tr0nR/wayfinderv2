@@ -1,0 +1,6 @@
+{
+  "parent": "wayfinder:item/signalscope",
+  "textures": {
+    "2": "wayfinder:item/signalscope_vantage"
+  }
+}

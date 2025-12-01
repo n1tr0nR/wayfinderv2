@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#W#",
+        " # "
+    ],
+    "key": {
+        "#": "minecraft:redstone",
+        "W": "wayfinder:lens"
+    },
+    "result": {
+        "id": "wayfinder:privacy_lens",
+        "count": 1
+    }
+}

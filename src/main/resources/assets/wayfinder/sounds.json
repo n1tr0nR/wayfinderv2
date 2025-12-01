@@ -1,0 +1,47 @@
+{
+  "signalscope_increase": {
+    "sounds": [
+      "wayfinder:signalscope_increase"
+    ]
+  },
+  "signalscope_decrease": {
+    "sounds": [
+      "wayfinder:signalscope_decrease"
+    ]
+  },
+  "signalscope_ambient": {
+    "sounds": [
+      "wayfinder:signalscope_ambient"
+    ]
+  },
+  "signalscope": {
+    "sounds": [
+      "wayfinder:signalscope"
+    ]
+  },
+  "signal_1": {
+    "sounds": [
+      "wayfinder:signals/1"
+    ]
+  },
+  "signal_2": {
+    "sounds": [
+      "wayfinder:signals/2"
+    ]
+  },
+  "signal_3": {
+    "sounds": [
+      "wayfinder:signals/3"
+    ]
+  },
+  "place_lens": {
+    "sounds": [
+      "wayfinder:place_lens"
+    ]
+  },
+  "take_lens": {
+    "sounds": [
+      "wayfinder:take_lens"
+    ]
+  }
+}

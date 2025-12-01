@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "RWR",
+        " # "
+    ],
+    "key": {
+        "#": "minecraft:emerald",
+        "R": "minecraft:redstone",
+        "W": "wayfinder:lens"
+    },
+    "result": {
+        "id": "wayfinder:vantage_lens",
+        "count": 1
+    }
+}

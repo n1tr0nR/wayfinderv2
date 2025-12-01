@@ -1,0 +1,15 @@
+{
+  "item.wayfinder.signalscope": "Signalscope",
+  "item.wayfinder.signal_tweaker": "Signal Tweaker",
+  "item.wayfinder.signal_booster": "Signal Booster",
+  "item.wayfinder.signal_expander": "Signal Expander",
+  "item.wayfinder.lens": "Lens",
+  "item.wayfinder.privacy_lens": "Privacy Lens",
+  "item.wayfinder.vantage_lens": "Vantage Lens",
+
+  "block.wayfinder.signal_array": "Signal Array",
+
+  "advancement.wayfinder.a_plus_hearing": "Use a Signalscope",
+  "advancement.wayfinder.personal_vpn": "Create a private Signal Network",
+  "advancement.wayfinder.let_the_choir_sing": "Listen to all 3 of the different Signal types at the same time"
+}
