@@ -12,7 +12,6 @@ import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
-import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -129,7 +128,7 @@ public class SignalArrayBlock extends BlockWithEntity implements Waterloggable {
     protected ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit) {
         if (player.isSneaking()){
             SignalPlacementsComponent placementsComponent = SignalPlacementsComponent.get(world);
-            SignalPlacementsComponent.SignalData signal = SignalPlacementsComponent.get(MinecraftClient.getInstance().world).getSignalPositions().stream()
+            SignalPlacementsComponent.SignalData signal = SignalPlacementsComponent.get(world).getSignalPositions().stream()
                     .filter(signalData -> signalData.pos.equals(pos))
                     .findFirst()
                     .orElse(null);
@@ -161,7 +160,7 @@ public class SignalArrayBlock extends BlockWithEntity implements Waterloggable {
                     Wayfinder.grantAdvancement(player, Identifier.of(Wayfinder.MOD_ID, "personal_vpn"), "incode");
                 }
                 SignalPlacementsComponent placementsComponent = SignalPlacementsComponent.get(world);
-                SignalPlacementsComponent.SignalData signal = SignalPlacementsComponent.get(MinecraftClient.getInstance().world).getSignalPositions().stream()
+                SignalPlacementsComponent.SignalData signal = SignalPlacementsComponent.get(world).getSignalPositions().stream()
                         .filter(signalData -> signalData.pos.equals(pos))
                         .findFirst()
                         .orElse(null);
