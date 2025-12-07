@@ -4,8 +4,6 @@ import dev.nitron.wayfinder.content.block_entity.SignalArrayBlockEntity;
 import dev.nitron.wayfinder.content.cca.SignalPlacementsComponent;
 import dev.nitron.wayfinder.content.data_component.SignalTweakerComponent;
 import dev.nitron.wayfinder.init.ModDataComponents;
-import dev.nitron.wayfinder.init.ModSounds;
-import net.minecraft.client.MinecraftClient;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.StackReference;
@@ -78,7 +76,7 @@ public class SignalTweakerItem extends Item {
 
         if (player.isSneaking()){
             SignalPlacementsComponent placementsComponent = SignalPlacementsComponent.get(world);
-            SignalPlacementsComponent.SignalData signal = SignalPlacementsComponent.get(MinecraftClient.getInstance().world).getSignalPositions().stream()
+            SignalPlacementsComponent.SignalData signal = SignalPlacementsComponent.get(context.getWorld()).getSignalPositions().stream()
                     .filter(signalData -> signalData.pos.equals(pos))
                     .findFirst()
                     .orElse(null);
@@ -109,7 +107,7 @@ public class SignalTweakerItem extends Item {
                         component.type()
                 );
                 SignalPlacementsComponent placementsComponent = SignalPlacementsComponent.get(world);
-                SignalPlacementsComponent.get(MinecraftClient.getInstance().world).getSignalPositions().stream()
+                SignalPlacementsComponent.get(context.getWorld()).getSignalPositions().stream()
                         .filter(signalData -> signalData.pos.equals(pos))
                         .findFirst().ifPresent(signal -> placementsComponent.updateSignal(
                                 pos,
